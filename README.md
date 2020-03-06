@@ -1,15 +1,19 @@
 # Python-AI-Robot
 
 The objective of this project was to develop a robot and the environment where it will act. For this, a robot was created and programmed, and heuristics and strategies developed that incorporate knowledge about this type of problems and allow them to be solved in a more effective way.
+
 The robot was created using Lego EV3 and coded with Python.
 
 ### The Game
 
 There are four pieces of different colors and each piece has a symbol (o, +, -, x).
+
 The board for this game measures 5x5. The objective of the game is to arrange all the pieces of a random sequence of pieces on a board with the dimension n x n, in order to obtain as many points as possible.
+
 The pieces are placed initially in such a way that they can be read and known by the robot at the beginning of the game. The starting tray is empty. Points are obtained when complete figures are formed. The pieces that form these figures are eliminated from the board (by the group members, not by the robot).
 
 The final score of the game (that is, of a solution) is obtained by adding the scores obtained during the game with the elimination of the pieces. For each figure complete with n pieces that is eliminated, 2^n points are added to the score.
+
 In the case that there is no solution, and regardless of whether some pieces were eliminated during the game, the final score is 0 points.
 
 ### Heuristics
